@@ -6,13 +6,14 @@ function getIt() {
 
 function frameIt() {
   $('img').on('load', function() {
-    
+    img.tasty
   })
 }
 
 
 
 $(document).ready(function(){
-getIt()
+getIt();
+frameIt();
 
 });
