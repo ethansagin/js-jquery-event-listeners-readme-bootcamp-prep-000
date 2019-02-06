@@ -1,10 +1,14 @@
 function getIt() {
   $('p').on('click', function(){
-    alert('HeyL')
+    alert('Hey!')
   })
 }
 
-
+function frameIt() {
+  $('.tasty').on('load', function() {
+    
+  })
+}
 
 
 
