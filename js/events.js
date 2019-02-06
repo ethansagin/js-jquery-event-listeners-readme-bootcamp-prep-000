@@ -6,9 +6,8 @@ function getIt() {
 
 function frameIt() {
   $('img').on('load', function() {
-    $('img').className = $('.tasty');
+    $('img.tasty');
   });
-  return $('img')
 }
 
 function pressIt() {
